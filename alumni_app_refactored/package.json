@@ -1,0 +1,32 @@
+{
+  "name": "alumni-app-refactored",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application Alumni refactorisée pour être responsive",
+  "author": "",
+  "keywords": [
+    "gatsby"
+  ],
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "gatsby": "^5.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2",
+    "vercel": "^33.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
+    "autoprefixer": "^10.4.16",
+    "gatsby-plugin-postcss": "^6.13.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.0"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  }
+}
